@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Language-Golang-blue)
 ![](https://img.shields.io/badge/Platform-APT-blue)
 ![](https://img.shields.io/badge/App-Security_Scanner-blue)
-![](https://img.shields.io/badge/Version-v0.2-blue)
+![](https://img.shields.io/badge/Stable-v0.1-blue)
 
 This is our ```automated penetration testing``` (aka APT) application scanner component.
 Used from [```GoTestWAF```](https://github.com/wallarm/gotestwaf).
