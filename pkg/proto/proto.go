@@ -8,6 +8,4 @@ type Proto struct {
     FP      string  `json:"fp"`
     Args    string  `json:"args"`
     Summary Summary `json:"summary"`
-    NP      string  `json:"negative_payloads"`
-    PP      string  `json:"positive_payloads"`
 }
