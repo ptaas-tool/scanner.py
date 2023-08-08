@@ -13,6 +13,14 @@ Used from [```GoTestWAF```](https://github.com/wallarm/gotestwaf).
 It was designed to evaluate web application security solutions, such as API security proxies, Web Application Firewalls,
 IPS, API gateways, and others.
 
+## proto
+
+In order to get report prototype for using it in your ```Golang``` base code, use this model:
+
+```shell
+go get github.com/amirhnajafiz/apt-scanner/pkg/proto
+```
+
 * [How it works](#how-it-works)
 * [Requirements](#requirements)
 * [Configuration options](#configuration-options)
