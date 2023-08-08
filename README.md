@@ -6,18 +6,16 @@
 ![](https://img.shields.io/badge/Version-v0.1-blue)
 
 This is our ```automated penetration testing``` (aka APT) application scanner component.
-Used from [GoTestWAF](https://github.com/wallarm/gotestwaf).
-GoTestWAF is a tool for API and OWASP attack simulation that supports a wide range of API protocols including
-REST, GraphQL, gRPC, WebSockets, SOAP, XMLRPC, and others.
+Used from [```GoTestWAF```](https://github.com/wallarm/gotestwaf).
+```GoTestWAF``` is a tool for API and OWASP attack simulation that supports a wide range of API protocols including
+```REST```, ```GraphQL```, ```gRPC```, ```WebSockets```, ```SOAP```, ```XMLRPC```, and others.
 
 It was designed to evaluate web application security solutions, such as API security proxies, Web Application Firewalls,
 IPS, API gateways, and others.
 
----
 * [How it works](#how-it-works)
 * [Requirements](#requirements)
 * [Configuration options](#configuration-options)
----
 
 ## How it works
 
