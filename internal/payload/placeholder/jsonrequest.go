@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
+	"github.com/amirhnajafiz/apt-scanner/internal/payload/encoder"
 )
 
 type JSONRequest struct {

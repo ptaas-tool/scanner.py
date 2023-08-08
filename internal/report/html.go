@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafi/apt-scanner/internal/db"
-	"github.com/amirhnajafi/apt-scanner/internal/version"
-	"github.com/amirhnajafi/apt-scanner/pkg/report"
+	"github.com/amirhnajafiz/apt-scanner/internal/db"
+	"github.com/amirhnajafiz/apt-scanner/internal/version"
+	"github.com/amirhnajafiz/apt-scanner/pkg/report"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafi/apt-scanner/internal/db"
+	"github.com/amirhnajafiz/apt-scanner/internal/db"
 )
 
 // The minimum length of each column in a console table report.

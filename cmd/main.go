@@ -16,12 +16,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/amirhnajafi/apt-scanner/internal/db"
-	"github.com/amirhnajafi/apt-scanner/internal/helpers"
-	"github.com/amirhnajafi/apt-scanner/internal/openapi"
-	"github.com/amirhnajafi/apt-scanner/internal/report"
-	"github.com/amirhnajafi/apt-scanner/internal/scanner"
-	"github.com/amirhnajafi/apt-scanner/internal/version"
+	"github.com/amirhnajafiz/apt-scanner/internal/db"
+	"github.com/amirhnajafiz/apt-scanner/internal/helpers"
+	"github.com/amirhnajafiz/apt-scanner/internal/openapi"
+	"github.com/amirhnajafiz/apt-scanner/internal/report"
+	"github.com/amirhnajafiz/apt-scanner/internal/scanner"
+	"github.com/amirhnajafiz/apt-scanner/internal/version"
 )
 
 func main() {

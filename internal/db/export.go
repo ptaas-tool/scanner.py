@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
+	"github.com/amirhnajafiz/apt-scanner/internal/payload/encoder"
 )
 
 func (db *DB) ExportPayloads(payloadsExportFile string) error {

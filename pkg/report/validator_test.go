@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
-	"github.com/amirhnajafi/apt-scanner/internal/payload/placeholder"
+	"github.com/amirhnajafiz/apt-scanner/internal/payload/encoder"
+	"github.com/amirhnajafiz/apt-scanner/internal/payload/placeholder"
 )
 
 func TestCustomValidators(t *testing.T) {

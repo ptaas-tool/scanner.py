@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafi/apt-scanner/internal/db"
+	"github.com/amirhnajafiz/apt-scanner/internal/db"
 )
 
 // jsonReport represents a data required to render a full report in JSON format.

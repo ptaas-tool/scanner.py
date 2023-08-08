@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafi/apt-scanner/internal/payload/placeholder"
+	"github.com/amirhnajafiz/apt-scanner/internal/payload/placeholder"
 )
 
 type DB struct {

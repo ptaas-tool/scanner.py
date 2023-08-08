@@ -14,9 +14,9 @@ import (
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/amirhnajafi/apt-scanner/internal/config"
-	"github.com/amirhnajafi/apt-scanner/internal/helpers"
-	"github.com/amirhnajafi/apt-scanner/internal/version"
+	"github.com/amirhnajafiz/apt-scanner/internal/config"
+	"github.com/amirhnajafiz/apt-scanner/internal/helpers"
+	"github.com/amirhnajafiz/apt-scanner/internal/version"
 )
 
 const (

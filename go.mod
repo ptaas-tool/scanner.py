@@ -1,4 +1,4 @@
-module github.com/amirhnajafi/apt-scanner
+module github.com/amirhnajafiz/apt-scanner
 
 go 1.19
 
