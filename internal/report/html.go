@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/internal/db"
-	"github.com/wallarm/gotestwaf/internal/version"
-	"github.com/wallarm/gotestwaf/pkg/report"
+	"github.com/amirhnajafi/apt-scanner/internal/db"
+	"github.com/amirhnajafi/apt-scanner/internal/version"
+	"github.com/amirhnajafi/apt-scanner/pkg/report"
 )
 
 const (

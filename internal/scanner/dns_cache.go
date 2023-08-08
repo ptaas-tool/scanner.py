@@ -5,7 +5,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/wallarm/gotestwaf/internal/dnscache"
+	"github.com/amirhnajafi/apt-scanner/internal/dnscache"
 )
 
 const (

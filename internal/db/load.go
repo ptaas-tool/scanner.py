@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/wallarm/gotestwaf/internal/config"
-	"github.com/wallarm/gotestwaf/internal/payload/placeholder"
+	"github.com/amirhnajafi/apt-scanner/internal/config"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/placeholder"
 )
 
 func LoadTestCases(cfg *config.Config) (testCases []*Case, err error) {

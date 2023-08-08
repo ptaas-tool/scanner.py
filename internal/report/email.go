@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/pkg/report"
+	"github.com/amirhnajafi/apt-scanner/pkg/report"
 )
 
 const serverURL = "https://gotestwaf.wallarm.tools/v1/send-report"

@@ -16,12 +16,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/wallarm/gotestwaf/internal/db"
-	"github.com/wallarm/gotestwaf/internal/helpers"
-	"github.com/wallarm/gotestwaf/internal/openapi"
-	"github.com/wallarm/gotestwaf/internal/report"
-	"github.com/wallarm/gotestwaf/internal/scanner"
-	"github.com/wallarm/gotestwaf/internal/version"
+	"github.com/amirhnajafi/apt-scanner/internal/db"
+	"github.com/amirhnajafi/apt-scanner/internal/helpers"
+	"github.com/amirhnajafi/apt-scanner/internal/openapi"
+	"github.com/amirhnajafi/apt-scanner/internal/report"
+	"github.com/amirhnajafi/apt-scanner/internal/scanner"
+	"github.com/amirhnajafi/apt-scanner/internal/version"
 )
 
 func main() {

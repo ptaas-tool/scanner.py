@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
 )
 
 type SOAPBody struct {

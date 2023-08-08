@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/internal/db"
+	"github.com/amirhnajafi/apt-scanner/internal/db"
 )
 
 //go:embed report_template.html

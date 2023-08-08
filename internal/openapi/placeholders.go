@@ -1,7 +1,7 @@
 package openapi
 
 import (
-	"github.com/wallarm/gotestwaf/internal/payload/placeholder"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/placeholder"
 )
 
 var (

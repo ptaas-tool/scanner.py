@@ -20,9 +20,9 @@ import (
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/status"
 
-	"github.com/wallarm/gotestwaf/internal/config"
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
-	grpcPlaceholder "github.com/wallarm/gotestwaf/internal/payload/placeholder/grpc"
+	"github.com/amirhnajafi/apt-scanner/internal/config"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
+	grpcPlaceholder "github.com/amirhnajafi/apt-scanner/internal/payload/placeholder/grpc"
 )
 
 const (

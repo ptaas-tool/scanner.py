@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
 )
 
 func (db *DB) ExportPayloads(payloadsExportFile string) error {

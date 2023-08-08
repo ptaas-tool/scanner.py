@@ -13,10 +13,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wallarm/gotestwaf/internal/config"
-	"github.com/wallarm/gotestwaf/internal/dnscache"
-	"github.com/wallarm/gotestwaf/internal/payload/encoder"
-	"github.com/wallarm/gotestwaf/internal/payload/placeholder"
+	"github.com/amirhnajafi/apt-scanner/internal/config"
+	"github.com/amirhnajafi/apt-scanner/internal/dnscache"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/encoder"
+	"github.com/amirhnajafi/apt-scanner/internal/payload/placeholder"
 )
 
 const (

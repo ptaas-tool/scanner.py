@@ -14,9 +14,9 @@ import (
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/wallarm/gotestwaf/internal/config"
-	"github.com/wallarm/gotestwaf/internal/helpers"
-	"github.com/wallarm/gotestwaf/internal/version"
+	"github.com/amirhnajafi/apt-scanner/internal/config"
+	"github.com/amirhnajafi/apt-scanner/internal/helpers"
+	"github.com/amirhnajafi/apt-scanner/internal/version"
 )
 
 const (
