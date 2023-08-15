@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafiz/apt-scanner/internal/config"
-	"github.com/amirhnajafiz/apt-scanner/internal/dnscache"
-	"github.com/amirhnajafiz/apt-scanner/internal/scanner/detectors"
+	"github.com/apt-tool/apt-scanner/internal/config"
+	"github.com/apt-tool/apt-scanner/internal/dnscache"
+	"github.com/apt-tool/apt-scanner/internal/scanner/detectors"
 )
 
 const (

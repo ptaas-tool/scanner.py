@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/amirhnajafiz/apt-scanner/internal/db"
+	"github.com/apt-tool/apt-scanner/internal/db"
 )
 
 const (

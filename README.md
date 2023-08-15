@@ -18,7 +18,7 @@ IPS, API gateways, and others.
 In order to get report prototype for using it in your ```Golang``` base code, use this model:
 
 ```shell
-go get github.com/amirhnajafiz/apt-scanner/pkg/proto@v0.2
+go get github.com/apt-tool/apt-scanner/pkg/proto@v0.2
 ```
 
 * [How it works](#how-it-works)

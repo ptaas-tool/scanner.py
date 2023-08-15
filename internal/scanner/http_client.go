@@ -13,10 +13,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amirhnajafiz/apt-scanner/internal/config"
-	"github.com/amirhnajafiz/apt-scanner/internal/dnscache"
-	"github.com/amirhnajafiz/apt-scanner/internal/payload/encoder"
-	"github.com/amirhnajafiz/apt-scanner/internal/payload/placeholder"
+	"github.com/apt-tool/apt-scanner/internal/config"
+	"github.com/apt-tool/apt-scanner/internal/dnscache"
+	"github.com/apt-tool/apt-scanner/internal/payload/encoder"
+	"github.com/apt-tool/apt-scanner/internal/payload/placeholder"
 )
 
 const (

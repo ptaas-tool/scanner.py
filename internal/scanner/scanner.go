@@ -25,12 +25,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/amirhnajafiz/apt-scanner/internal/config"
-	"github.com/amirhnajafiz/apt-scanner/internal/db"
-	"github.com/amirhnajafiz/apt-scanner/internal/dnscache"
-	"github.com/amirhnajafiz/apt-scanner/internal/openapi"
-	"github.com/amirhnajafiz/apt-scanner/internal/payload/encoder"
-	"github.com/amirhnajafiz/apt-scanner/internal/payload/placeholder"
+	"github.com/apt-tool/apt-scanner/internal/config"
+	"github.com/apt-tool/apt-scanner/internal/db"
+	"github.com/apt-tool/apt-scanner/internal/dnscache"
+	"github.com/apt-tool/apt-scanner/internal/openapi"
+	"github.com/apt-tool/apt-scanner/internal/payload/encoder"
+	"github.com/apt-tool/apt-scanner/internal/payload/placeholder"
 )
 
 const (
