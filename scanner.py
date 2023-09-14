@@ -17,24 +17,23 @@ if __name__ == "__main__":
     # create analysis class
     an = Analysis(config['host'])
     
+    # result array
+    res = []
+    
     # start scanning stages
-    res = an.port_scan() # add vulens results to report
+    res = res + an.port_scan()
+    res = res + an.dns_scan()
+    res = res + an.os_scan()
+    res = res + an.version_scan()
+    res = res + an.vulen_scan()
+    res = res + an.ping_scan()
+    res = res + an.syn_scan()
+    res = res + an.tcp_scan()
+    res = res + an.udp_scan()
     
-    res = an.dns_scan() # add vulens results to report
-    
-    res = an.os_scan() # add vulens results to report
-    
-    res = an.version_scan() # add vulens results to report
-    
-    res = an.vulen_scan() # add vulens results to report
-    
-    res = an.ping_scan() # add vulens results to report
-    
-    res = an.syn_scan() # add vulens results to report
-    
-    res = an.tcp_scan() # add vulens results to report
-    
-    res = an.udp_scan() # add vulens results to report
+    # add items to report
+    for item in res:
+        r.add(item)
     
     # pring output
     print(r.export())
