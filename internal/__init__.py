@@ -8,4 +8,3 @@
 ### from results' of these commands it will return
 ### a json report which contains the following data
 #### 1. list of vulens
-#### 2. host scan information
