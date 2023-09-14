@@ -3,3 +3,5 @@ main
 .vscode/
 reports/
 .DS_Store
+
+__pycache__/
