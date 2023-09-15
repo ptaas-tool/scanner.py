@@ -1,4 +1,5 @@
 import nmap3
+import json
 
 
 class Analysis(object):
@@ -13,28 +14,44 @@ class Analysis(object):
         self.host = host
     
     def port_scan(self):
-        return self.nmap.scan_top_ports(self.host)
+        v = []
+        res = self.nmap.scan_top_ports(self.host)
+        
+        for key in res:
+            if res[key]['osmatch']:
+                v.append('os version')
+        
+        return v
     
     def dns_scan(self):
-        return self.nmap.nmap_dns_brute_script(self.host)
+        print(json.dumps(self.nmap.nmap_dns_brute_script(self.host), indent=2))
+        #self.nmap.nmap_dns_brute_script(self.host)
+        return []
     
     def os_scan(self):
-        return self.nmap.nmap_os_detection(self.host)
+        #self.nmap.nmap_os_detection(self.host)
+        return []
     
     def version_scan(self):
-        return self.nmap.nmap_version_detection(self.host)
+        #self.nmap.nmap_version_detection(self.host)
+        return []
     
     def vulen_scan(self):
-        return self.nmap.nmap_version_detection(self.host, args="--script vulners --script-args mincvss+5.0")
+        #self.nmap.nmap_version_detection(self.host, args="--script vulners --script-args mincvss+5.0")
+        return []
     
     def ping_scan(self):
-        return self.nmap2.nmap_ping_scan(self.host)
+        #self.nmap2.nmap_ping_scan(self.host)
+        return []
         
     def syn_scan(self):
-        return self.nmap2.nmap_syn_scan(self.host)
+        #self.nmap2.nmap_syn_scan(self.host)
+        return []
 
     def tcp_scan(self):
-        return self.nmap2.nmap_tcp_scan(self.host)
+        #self.nmap2.nmap_tcp_scan(self.host)
+        return []
     
     def udp_scan(self):
-        return self.nmap2.nmap_udp_scan(self.host)
+        #self.nmap2.nmap_udp_scan(self.host)
+        return []
