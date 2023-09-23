@@ -19,8 +19,13 @@ class Analysis(object):
         try:
             res = self.nmap.scan_top_ports(self.host)
             
-            with open("port_scan.json", "w") as file:
-                file.write(json.dumps(res, indent=4))
+            item = next(iter(res))
+            
+            if len(item.ports) > 0:
+                v.append("dos")
+                v.append("soap")
+                v.append("cross site scripting")
+                v.append("csrf")
         except:
             return []
         
