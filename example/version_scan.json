@@ -1,0 +1,232 @@
+{
+    "194.225.33.19": {
+        "osmatch": {},
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "25",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "tcpwrapped",
+                    "method": "probed",
+                    "conf": "8"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "http",
+                    "product": "Axigen webmail httpd",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:gecad:axigen_mail_server"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "110",
+                "state": "closed",
+                "reason": "conn-refused",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pop3",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "143",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "nagios-nsca",
+                    "product": "Nagios NSCA",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "http",
+                    "product": "Axigen webmail httpd",
+                    "tunnel": "ssl",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:gecad:axigen_mail_server"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "465",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "smtp",
+                    "product": "Axigen smtpd",
+                    "hostname": "mail.aut.ac.ir",
+                    "tunnel": "ssl",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:gecad:axigen_mail_server"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "587",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "smtp",
+                    "product": "Axigen smtpd",
+                    "hostname": "mail.aut.ac.ir",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:gecad:axigen_mail_server"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "993",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "nagios-nsca",
+                    "product": "Nagios NSCA",
+                    "tunnel": "ssl",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "995",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pop3",
+                    "servicefp": "SF-Port995-TCP:V=7.92%T=SSL%I=7%D=9/23%Time=650EFE73%P=arm-apple-darwin20.6.0%r(NULL,18,\"\\+OK\\x20POP3\\x20server\\x20\\x20ready\\r\\n\")%r(GenericLines,4A,\"\\+OK\\x20POP3\\x20server\\x20\\x20ready\\r\\n-ERR\\x20Unknown\\x20command\\x20<>\\r\\n-ERR\\x20Unknown\\x20command\\x20<>\\r\\n\")%r(HTTPOptions,5C,\"\\+OK\\x20POP3\\x20server\\x20\\x20ready\\r\\n-ERR\\x20Unknown\\x20command\\x20<OPTIONS\\x20/\\x20HTTP/1\\.0>\\r\\n-ERR\\x20Unknown\\x20command\\x20<>\\r\\n\");",
+                    "tunnel": "ssl",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "1723",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pptp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "webmail.aut.ac.ir",
+                "type": "user"
+            }
+        ],
+        "macaddress": null,
+        "state": {
+            "state": "up",
+            "reason": "syn-ack",
+            "reason_ttl": "0"
+        }
+    },
+    "runtime": {
+        "time": "1695481618",
+        "timestr": "Sat Sep 23 18:36:58 2023",
+        "summary": "Nmap done at Sat Sep 23 18:36:58 2023; 1 IP address (1 host up) scanned in 244.54 seconds",
+        "elapsed": "244.54",
+        "exit": "success"
+    },
+    "stats": {
+        "scanner": "nmap",
+        "args": "/opt/homebrew/bin//nmap -v -oX - -sV webmail.aut.ac.ir",
+        "start": "1695481373",
+        "startstr": "Sat Sep 23 18:32:53 2023",
+        "version": "7.92",
+        "xmloutputversion": "1.05"
+    },
+    "task_results": [
+        {
+            "task": "Ping Scan",
+            "time": "1695481373",
+            "extrainfo": "1 total hosts"
+        },
+        {
+            "task": "Parallel DNS resolution of 1 host.",
+            "time": "1695481373"
+        },
+        {
+            "task": "Connect Scan",
+            "time": "1695481447",
+            "extrainfo": "1000 total ports"
+        },
+        {
+            "task": "Service scan",
+            "time": "1695481606",
+            "extrainfo": "9 services on 1 host"
+        },
+        {
+            "task": "NSE",
+            "time": "1695481616"
+        },
+        {
+            "task": "NSE",
+            "time": "1695481618"
+        }
+    ]
+}

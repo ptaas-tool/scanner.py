@@ -1,0 +1,54 @@
+[
+    {
+        "hostname": "id.aut.ac.ir",
+        "address": "185.211.88.26"
+    },
+    {
+        "hostname": "test.aut.ac.ir",
+        "address": "185.211.88.135"
+    },
+    {
+        "hostname": "internet.aut.ac.ir",
+        "address": "185.211.88.124"
+    },
+    {
+        "hostname": "ap.aut.ac.ir",
+        "address": "185.211.88.114"
+    },
+    {
+        "hostname": "ns1.aut.ac.ir",
+        "address": "194.225.33.14"
+    },
+    {
+        "hostname": "voip.aut.ac.ir",
+        "address": "194.225.33.40"
+    },
+    {
+        "hostname": "ns2.aut.ac.ir",
+        "address": "194.225.34.9"
+    },
+    {
+        "hostname": "vpn.aut.ac.ir",
+        "address": "194.225.33.8"
+    },
+    {
+        "hostname": "download.aut.ac.ir",
+        "address": "194.225.33.17"
+    },
+    {
+        "hostname": "ns3.aut.ac.ir",
+        "address": "185.211.88.6"
+    },
+    {
+        "hostname": "www.aut.ac.ir",
+        "address": "185.211.88.131"
+    },
+    {
+        "hostname": "mail.aut.ac.ir",
+        "address": "194.225.33.19"
+    },
+    {
+        "hostname": "help.aut.ac.ir",
+        "address": "185.211.88.79"
+    }
+]

@@ -1,0 +1,190 @@
+{
+    "194.225.33.19": {
+        "osmatch": {},
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "25",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "smtp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "110",
+                "state": "closed",
+                "reason": "conn-refused",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pop3",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "143",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "imap",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "465",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "smtps",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "587",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "submission",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "993",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "imaps",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "995",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pop3s",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "1723",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "0",
+                "service": {
+                    "name": "pptp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "webmail.aut.ac.ir",
+                "type": "user"
+            }
+        ],
+        "macaddress": null,
+        "state": {
+            "state": "up",
+            "reason": "syn-ack",
+            "reason_ttl": "0"
+        }
+    },
+    "runtime": {
+        "time": "1695481892",
+        "timestr": "Sat Sep 23 18:41:32 2023",
+        "summary": "Nmap done at Sat Sep 23 18:41:32 2023; 1 IP address (1 host up) scanned in 53.39 seconds",
+        "elapsed": "53.39",
+        "exit": "success"
+    },
+    "stats": {
+        "scanner": "nmap",
+        "args": "/opt/homebrew/bin//nmap -v -oX - -sT webmail.aut.ac.ir",
+        "start": "1695481839",
+        "startstr": "Sat Sep 23 18:40:39 2023",
+        "version": "7.92",
+        "xmloutputversion": "1.05"
+    },
+    "task_results": [
+        {
+            "task": "Ping Scan",
+            "time": "1695481839",
+            "extrainfo": "1 total hosts"
+        },
+        {
+            "task": "Parallel DNS resolution of 1 host.",
+            "time": "1695481839"
+        },
+        {
+            "task": "Connect Scan",
+            "time": "1695481892",
+            "extrainfo": "1000 total ports"
+        }
+    ]
+}
