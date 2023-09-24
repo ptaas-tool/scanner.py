@@ -142,10 +142,7 @@ class Analysis(object):
         v = []
         
         try:
-            res = self.nmap2.nmap_ping_scan(self.host)
-            
-            with open("ping_scan.json", "w") as file:
-                file.write(json.dumps(res, indent=4))
+            self.nmap2.nmap_ping_scan(self.host)
         except:
             return []
         
@@ -155,10 +152,7 @@ class Analysis(object):
         v = []
         
         try:
-            res = self.nmap2.nmap_syn_scan(self.host)
-            
-            with open("syn_scan.json", "w") as file:
-                file.write(json.dumps(res, indent=4))
+            self.nmap2.nmap_syn_scan(self.host)
         except:
             return []
         
@@ -168,10 +162,7 @@ class Analysis(object):
         v = []
         
         try:
-            res = self.nmap2.nmap_tcp_scan(self.host)
-            
-            with open("tcp_scan.json", "w") as file:
-                file.write(json.dumps(res, indent=4))
+            self.nmap2.nmap_tcp_scan(self.host)
         except:
             return []
             
@@ -181,10 +172,7 @@ class Analysis(object):
         v = []
         
         try:
-            res = self.nmap2.nmap_udp_scan(self.host)
-            
-            with open("udp_scan.json", "w") as file:
-                file.write(json.dumps(res, indent=4))
+            self.nmap2.nmap_udp_scan(self.host)
         except:
             return []
         
