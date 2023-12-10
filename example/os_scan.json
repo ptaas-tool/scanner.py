@@ -1,4 +1,78 @@
 {
-    "error": true,
-    "msg": "You must be root/administrator to continue!"
-}
+    "nmap": {
+      "command_line": "nmap -sV -O 192.168.1.1",
+      "scaninfo": {
+        "type": "syn",
+        "protocol": "tcp",
+        "num_services": "1000",
+        "services": "192.168.1.1-65535"
+      },
+      "scanstats": {
+        "timestr": "Tue Jun  1 12:00:00 2023",
+        "elapsed": "15.00s",
+        "uphosts": "1",
+        "downhosts": "0",
+        "totalhosts": "1"
+      }
+    },
+    "scan": [
+      {
+        "host": {
+          "hostname": [],
+          "addresses": {
+            "ipv4": "192.168.1.1"
+          },
+          "status": {
+            "state": "up",
+            "reason": "syn-ack"
+          },
+          "ports": [
+            {
+              "protocol": "tcp",
+              "portid": 22,
+              "state": "open",
+              "service": {
+                "name": "ssh",
+                "product": "OpenSSH",
+                "version": "7.6p1",
+                "extrainfo": "Ubuntu",
+                "ostype": "Linux",
+                "method": "probed"
+              }
+            },
+            {
+              "protocol": "tcp",
+              "portid": 80,
+              "state": "open",
+              "service": {
+                "name": "http",
+                "product": "Apache",
+                "version": "2.4.29",
+                "extrainfo": "",
+                "ostype": "Unix",
+                "method": "probed"
+              }
+            }
+          ],
+          "os": {
+            "osmatch": [
+              {
+                "name": "Linux",
+                "accuracy": "95%",
+                "osclass": [
+                  {
+                    "type": "general purpose",
+                    "vendor": "Linux",
+                    "osfamily": "Linux",
+                    "osgen": "2.6.X",
+                    "accuracy": "95%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+  

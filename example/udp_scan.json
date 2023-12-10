@@ -1,4 +1,66 @@
 {
-    "error": true,
-    "msg": "You must be root/administrator to continue!"
-}
+    "nmap": {
+      "command_line": "nmap -sU -p 53,161,500 192.168.1.1",
+      "scaninfo": {
+        "type": "udp",
+        "protocol": "udp",
+        "num_services": "3",
+        "services": "53,161,500"
+      },
+      "scanstats": {
+        "timestr": "Tue Jun  1 12:00:00 2023",
+        "elapsed": "15.00s",
+        "uphosts": "1",
+        "downhosts": "0",
+        "totalhosts": "1"
+      }
+    },
+    "scan": [
+      {
+        "host": {
+          "hostname": [],
+          "addresses": {
+            "ipv4": "192.168.1.1"
+          },
+          "status": {
+            "state": "up",
+            "reason": "udp-response"
+          },
+          "ports": [
+            {
+              "protocol": "udp",
+              "portid": 53,
+              "state": "open",
+              "reason": "udp-response",
+              "service": {
+                "name": "domain",
+                "product": "ISC BIND",
+                "version": "9.11.3",
+                "method": "table",
+                "conf": "3"
+              }
+            },
+            {
+              "protocol": "udp",
+              "portid": 161,
+              "state": "open",
+              "reason": "udp-response",
+              "service": {
+                "name": "snmp",
+                "product": "SNMPv1",
+                "method": "table"
+              }
+            },
+            {
+              "protocol": "udp",
+              "portid": 500,
+              "state": "filtered",
+              "reason": "no-response",
+              "service": {}
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

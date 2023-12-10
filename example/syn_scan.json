@@ -1,4 +1,87 @@
 {
-    "error": true,
-    "msg": "You must be root/administrator to continue!"
-}
+    "nmap": {
+      "command_line": "nmap -sS -p 1-1000 192.168.1.1",
+      "scaninfo": {
+        "type": "syn",
+        "protocol": "tcp",
+        "num_services": "1000",
+        "services": "1-1000"
+      },
+      "scanstats": {
+        "timestr": "Tue Jun  1 12:00:00 2023",
+        "elapsed": "10.00s",
+        "uphosts": "1",
+        "downhosts": "0",
+        "totalhosts": "1"
+      }
+    },
+    "scan": [
+      {
+        "host": {
+          "hostname": [],
+          "addresses": {
+            "ipv4": "192.168.1.1"
+          },
+          "status": {
+            "state": "up",
+            "reason": "syn-ack"
+          },
+          "ports": [
+            {
+              "protocol": "tcp",
+              "portid": 22,
+              "state": "open",
+              "reason": "syn-ack",
+              "service": {
+                "name": "ssh",
+                "product": "OpenSSH",
+                "version": "7.6p1",
+                "extrainfo": "Ubuntu",
+                "ostype": "Linux",
+                "method": "probed"
+              }
+            },
+            {
+              "protocol": "tcp",
+              "portid": 80,
+              "state": "open",
+              "reason": "syn-ack",
+              "service": {
+                "name": "http",
+                "product": "Apache",
+                "version": "2.4.29",
+                "extrainfo": "",
+                "ostype": "Unix",
+                "method": "probed"
+              }
+            },
+            {
+              "protocol": "tcp",
+              "portid": 443,
+              "state": "filtered",
+              "reason": "no-response",
+              "service": {}
+            }
+          ],
+          "os": {
+            "osmatch": [
+              {
+                "name": "Linux",
+                "accuracy": "95%",
+                "osclass": [
+                  {
+                    "type": "general purpose",
+                    "vendor": "Linux",
+                    "osfamily": "Linux",
+                    "osgen": "2.6.X",
+                    "accuracy": "95%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+  
