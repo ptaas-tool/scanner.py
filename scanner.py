@@ -1,6 +1,9 @@
 import argparse
 from internal.analysis import Analysis
 from internal.report import Report
+from internal.rules import load_rules
+
+import sys
 
 
 # parse input arguments
@@ -13,6 +16,7 @@ parser.add_argument("--deps", help="target address (dependency services)")
 parser.add_argument("--token", help="target access token for authentication")
 parser.add_argument("--host", help="target address")
 parser.add_argument("--endpoints", help="target special endpoints")
+parser.add_argument("--fast-scan", help="scanner fast mode")
 
 
 args = parser.parse_args()
@@ -25,6 +29,15 @@ if __name__ == "__main__":
     
     # create analysis class
     an = Analysis(config['host'])
+    
+    
+    if config["fast-scan"]:
+        for item in load_rules():
+            r.add(item)
+        
+        print(r.export())
+        sys.exit(1)
+    
     
     # result array
     res = []
