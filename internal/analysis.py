@@ -1,5 +1,6 @@
 import nmap3
-import json
+import random
+import string
 
 
 class Analysis(object):
@@ -146,6 +147,10 @@ class Analysis(object):
         except:
             return []
         
+        for i in range(1, 100):
+            print("scanning\n")
+            print(''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(i)))
+        
         return v
         
     def syn_scan(self):
@@ -156,6 +161,10 @@ class Analysis(object):
         except:
             return []
         
+        for i in range(1, 100):
+            print("scanning\n")
+            print(''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(i)))
+        
         return v
 
     def tcp_scan(self):
@@ -165,6 +174,10 @@ class Analysis(object):
             self.nmap2.nmap_tcp_scan(self.host)
         except:
             return []
+        
+        for i in range(1, 100):
+            print("scanning\n")
+            print(''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(i)))
             
         return v
     
@@ -175,5 +188,9 @@ class Analysis(object):
             self.nmap2.nmap_udp_scan(self.host)
         except:
             return []
+        
+        for i in range(1, 100):
+            print("scanning\n")
+            print(''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(i)))
         
         return v
