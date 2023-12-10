@@ -14,9 +14,8 @@ parser.add_argument("--protocols", help="target protocol")
 parser.add_argument("--type", help="target type (service type)")
 parser.add_argument("--deps", help="target address (dependency services)")
 parser.add_argument("--token", help="target access token for authentication")
-parser.add_argument("--host", help="target address")
 parser.add_argument("--endpoints", help="target special endpoints")
-parser.add_argument("--fast-scan", help="scanner fast mode")
+parser.add_argument("--fastscan", help="scanner fast mode")
 
 
 args = parser.parse_args()
@@ -31,7 +30,7 @@ if __name__ == "__main__":
     an = Analysis(config['host'])
     
     
-    if config["fast-scan"]:
+    if config['fastscan'] == "on":
         for item in load_rules():
             r.add(item)
         
