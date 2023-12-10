@@ -6,9 +6,18 @@ from internal.report import Report
 # parse input arguments
 parser = argparse.ArgumentParser(description="scanner script", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("--host", help="target address")
+parser.add_argument("--ports", help="target port")
+parser.add_argument("--protocols", help="target protocol")
+parser.add_argument("--type", help="target type (service type)")
+parser.add_argument("--deps", help="target address (dependency services)")
+parser.add_argument("--token", help="target access token for authentication")
+parser.add_argument("--host", help="target address")
+parser.add_argument("--endpoints", help="target special endpoints")
+
 
 args = parser.parse_args()
 config = vars(args)
+
 
 # execute scanner
 if __name__ == "__main__":
