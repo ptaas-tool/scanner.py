@@ -1,4 +1,4 @@
-# PTaaS Scanner
+# scanner.py
 
 ![GitHub top language](https://img.shields.io/github/languages/top/apt-tool/apt-scanner)
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/apt-tool/apt-scanner)
