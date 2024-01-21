@@ -21,3 +21,18 @@ Run the scanner by following command:
 ```shell
 python scanner.py --host webmail.aut.ac.ir
 ```
+
+### flags
+
+A list of the flags that you can set when executing the scanner:
+
+| Flag     | Description | Value |
+| -------- | ----------- | :---: |
+| ```--host``` | target address | string |
+| ```--ports``` | target port | int |
+| ```--protocols``` | target protocols | list |
+| ```--type``` | target type (service type) | string |
+| ```--deps``` | target deps addresses (dependency services) | list |
+| ```--token``` | target access token for authentication | string |
+| ```--endpoints``` | target special endpoints | list |
+| ```--fastscan``` | scanner fast mode | bool |
