@@ -36,3 +36,22 @@ A list of the flags that you can set when executing the scanner:
 | ```--token``` | target access token for authentication | string |
 | ```--endpoints``` | target special endpoints | list |
 | ```--fastscan``` | scanner fast mode | bool |
+
+## output
+
+```json
+[
+  {
+    "vuln": "injection",
+    "attacks": [ "sql injection", "graphql injection" ]
+    "path": [
+      "/docs/{doc-name}",
+      "/docs?sort_by={sorting-field}",
+    ],
+    "host" : {
+      "ip": "127.0.0.2",
+      "port": 8080
+    }
+  }
+]
+```
